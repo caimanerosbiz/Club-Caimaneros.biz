@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>🏐 Club Caimaneros</title>
+<link rel="icon" href="favicon.ico">
+<link rel="manifest" href="manifest.json">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="splash" class="splash white-bg">
+    <img src="assets/logo.jpg" alt="logo" id="splash-logo">
+    <h1>Club Caimaneros</h1>
+    <p class="tag">“Pasión, disciplina y trabajo en equipo”</p>
+    <button id="enter-btn">Entrar al sistema</button>
+  </div>
+  <div id="app" class="app" style="display:none;">
+    <header>
+      <div class="left"><img src="assets/logo.jpg" class="icon"> <span id="app-title">🏐 Club Caimaneros</span></div>
+      <div class="right"><span id="user-info"></span> <button id="logout-btn" class="small">Cerrar sesión</button></div>
+    </header>
+    <nav id="nav" class="nav" style="display:none;">
+      <button data-view="dashboard">Panel</button>
+      <button data-view="athletes">Deportistas</button>
+      <button data-view="attendance">Asistencia</button>
+      <button data-view="payments">Pagos</button>
+      <button data-view="messages">Mensajes</button>
+      <button data-view="settings">Ajustes</button>
+      <button data-view="approvals">Aprobaciones</button>
+    </nav>
+    <main id="main"></main>
+    <footer>
+      <small>© 2025 Club Caimaneros • caimanerosbiz@gmail.com • +57 314 422 1984</small>
+    </footer>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

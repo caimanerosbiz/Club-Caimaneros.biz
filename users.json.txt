@@ -1,0 +1,20 @@
+{
+  "admin": {
+    "username": "admin",
+    "password": "admin123",
+    "role": "Administrador",
+    "nombre": "Administrador del sistema"
+  },
+  "entrenador": {
+    "username": "entrenador1",
+    "password": "caimaneros",
+    "role": "Entrenador",
+    "nombre": "Entrenador Principal"
+  },
+  "deportista": {
+    "username": "jugador1",
+    "password": "voleibol",
+    "role": "Deportista",
+    "nombre": "Jugador Ejemplo"
+  }
+}
